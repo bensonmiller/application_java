@@ -2,6 +2,10 @@ application_java Cookbook CHANGELOG
 ===================================
 This file is used to list changes made in each version of the application_java cookbook.
 
+v3.0.3
+------
+* Added `tomcat_service` attribute to `tomcat` LWRP to allow a specific tomcat service name (e.g., 'tomcat7')
+
 v3.0.2
 ------
 * Added `super` call to `RemoteFile::Deploy` initialization

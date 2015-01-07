@@ -18,3 +18,5 @@
 #
 
 include ApplicationCookbook::ResourceBase
+
+attribute :tomcat_service, :kind_of => [String, NilClass], :default => 'tomcat'
